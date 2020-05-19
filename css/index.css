@@ -1,37 +1,104 @@
-body{
-    background-image: url('../images/bg-home-sm.jpg');
+.container-fluids{
+    background-image: url('../images/pizza-small.jpg');
     background-size: cover;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;  
+    height: 20%;
+    opacity: .5;  
 }
-.mid-button{
-    padding-top: 50%;
+.sexy-bg{
+    background-color: black;
+}
+
+.olives{
+    width: 100%;
+    margin-top: 10%;
+}
+.cut img{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    animation: dance 1s infinite alternate;
+}
+.cut img, .pizza img, .pepperoni img, .olives img{
+    width: 18%;
+    animation: bounce  5s infinite alternate;
+}
+.cut img{
+    animation: dance 6s infinite alternate;
+}
+@keyframes dance{
+    from{
+        transform: translateX(-150px);
+    }
+    to{
+        transform: translateX(300px);
+    }
+}
+@keyframes bounce{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-105px);
+    }
+}
+.pizza img{
+    animation: swim 2s infinite alternate;
+}
+@keyframes swim{
+    from{
+        transform: translate3d(50px, 20px, -10px);
+    }
+    to{
+        transform: translate3d(0px, 0px, 20px)
+    }
+}
+.olives img{
+    width: 25%;
+}
+.pepperoni img{
+    margin-left: 60%;
 }
 .title img{
-    width: 40%;
-    
+    width: 40%;    
 }
-.btn-success{
+.btn-danger{
+    margin-top: 30%;
     font-size: 2em;
 }
 @media screen and (min-width: 300px) and (max-width: 400px){
-    .btn-success{
+    .btn-danger{
         font-size: 1.5em;
     }
 }
 @media screen and (min-width: 500px){
-    body{
-        background-image: url('../images/bg-home.jpg');
+    .container-fluids{
+        background-image: url('../images/pizzabg.jpg');
         background-size: cover;
-        background-repeat: no-repeat;    
+        background-repeat: no-repeat;  
+        height: 20%;
+        opacity: .5;  
     }
-    .mid-button{
-        padding-top: 20%;
+    .olives{
+        width: 100%;
+        margin-top: 0%;
+    }
+    .olives img{
+        width: 18%;
+    }
+    .pepperoni img{
+        margin-left: 30%;
+        width: 11%;
     }
     .title img{
         width: 20%;
         
     }
-    .btn-success{
-        font-size: 2.5em;
+    .cut img{
+        width: 7%;
+        margin-top: 0%;
+    }
+    .btn-danger{
+        margin-top: 0%;
+        font-size: 2em;
     }
 }
