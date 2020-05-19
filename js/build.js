@@ -102,6 +102,13 @@ myOrder.show();
 
 
 $(document).ready(()=>{
+
+    $('.learn-more').click(()=>{
+        $('html, body').animate({
+            scrollTop: $(".about").offset().top
+          }, 1000)
+    });
+
     //Toggle the sections
     $('.one-title, .buyMore').click(()=>{
         $('.one-div').toggle();

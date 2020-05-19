@@ -1,10 +1,6 @@
-body{
-    background-image: url('../images/pizzabg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;   
-}
 .container{
     color: white;    
+    margin-top: 35%;
 }
 html {
     scroll-behavior: smooth;
@@ -12,6 +8,12 @@ html {
 .title img{
     width: 40%;
     
+}
+.order-yours{
+    color: black;
+    font-size: 2.3em;
+    text-align: center;
+    margin-bottom: 10%;
 }
 .section-title{
     width: 100%;
@@ -45,20 +47,21 @@ html {
     width: 0;
   }
   .size-radio label, .crust-radio label, .topping-checkbox label {
+      color: white;
     display: inline-block;
-    background-color: #ddd;
+    background-color: grey;
     padding: 10px 20px;
     font-family: sans-serif, Arial;
     font-size: 16px;
-    border: 2px solid #444;
+    border: 2px solid #ddd;
     border-radius: 4px;
 }
 .size-radio label:hover, .crust-radio label:hover, .topping-checkbox label:hover {
-    background-color: #dfd;
+    background-color: #218838;
   }
 .size-radio input[type="radio"]:checked + label, .crust-radio input[type="radio"]:checked + label, .topping-checkbox input[type="checkbox"]:checked +label {
-    background-color:#bfb;
-    border-color: #4c4;
+    background-color: #28a745;
+    border-color: #1e7e34;
 }
 .total-div{
     color: grey;
@@ -81,6 +84,10 @@ html {
     width: 70%;
 }
 @media only screen and (min-width: 500px){
+    .container{
+        color: white;    
+        margin-top: 15%;
+    }
     .pizza-img img{
         margin-left: 40%;
         width: 20%;
@@ -99,7 +106,7 @@ html {
     }
     .sendOne, .sendTwo{
         margin-left: 45%;
-        width: 5%;
+        /* width: 5%; */
     }
     .time img{
         width: 30%;
