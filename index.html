@@ -26,7 +26,7 @@
                 <img class="offset-sm-4" src="images/pepperoni.png" alt="">
             </div>
             <div class="mid-button offset-4 mt-5 offset-sm-5">
-                <button class="btn btn-danger learn-more">Learn More</button>
+               <a href="#about"> <button class="btn btn-danger learn-more">Learn More</a></button>
             </div>
             <div class="row olives">
                 <div class="col">
@@ -41,7 +41,7 @@
             </div>
         </div>
     </div>
-    <div class="about">
+    <div class="about" id="about">
         <div class="row about-row">
             <div class="col-12 col-sm">
                 <img src="images/pizza-chef.png" alt="">
@@ -51,15 +51,15 @@
                     Experience pizza, the Italian way...
                 </p>
                 <div class="row">
-                    <div class="col offset-3 offset-sm-1 mt-3">
-                        <button class="btn btn-success">Try Now</button>
+                    <div class="col offset-3 offset-sm-1 mt-3 try-now">
+                        <a href="#order-yours"><button class="btn btn-success try-now">Try Now</a></button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
-        <div class="order-yours">
+        <div class="order-yours" id="order-yours">
             <p class="card">
                 Place your Order.
             </p>
@@ -239,8 +239,8 @@
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <div class="col">
-                        <button class="checkout btn btn-success offset-3 mt-5">Checkout</button>
+                    <div class="col checkout-btn">
+                        <a href="#delivery"><button class="checkout btn btn-success offset-3 mt-5">Checkout</a></button>
                     </div>
                     <div class="col">
                         <button class="buyMore btn btn-danger mr-2 mt-5">Keep Shopping</button>
@@ -255,7 +255,7 @@
                 </div>
             </div>
             
-            <div class="delivery">
+            <div class="delivery" id="delivery">
                 <div class="form-row mt-4">
                     <div class="col">
                         <input type="text" class="form-control" placeholder="Enter Address for Home Delivery">
@@ -263,7 +263,7 @@
                 </div>
                 <div class="row mt-4">
                     <div class="col">
-                        <button class="homeDelivery btn btn-success offset-2 offset-sm-5 mt-5">Provide address for home delivery</button>
+                        <a href="#timer"><button class="homeDelivery btn btn-success offset-2 offset-sm-5 mt-5 timer-img"></a>Provide address for home delivery</button>
                     </div>
                 </div>
                 <div class="row">
@@ -274,7 +274,7 @@
             </div>            
         </div>
         <div class="row time">
-            <div class="col offset-1 offset-sm-3">
+            <div class="col offset-1 offset-sm-3" id="timer" >
                 <p class="in-text">Your order will be delivered shortly...</p>
                 <img src="images/time.gif" alt="Tic Toc">
             </div>

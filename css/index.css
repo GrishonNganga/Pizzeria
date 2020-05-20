@@ -71,6 +71,7 @@
     margin-top: 26%;
     width: 100%;
 }
+
 .about-row{
     width: 100%;
 }
@@ -79,6 +80,16 @@
 }
 .about-text{
     margin-top: 2%;
+}
+.mid-button a, .try-now a, .checkout-btn a, .timer-img a{
+    color: white;
+    text-decoration: none;
+}
+
+.mid-button a:hover, .try-now a:hover, .checkout-btn a:hover, .timer-img a:hover{
+     color:white; 
+     text-decoration:none; 
+     cursor:pointer;  
 }
 @media screen and (min-width: 300px) and (max-width: 400px){
     .learn-more{
