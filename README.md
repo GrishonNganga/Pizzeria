@@ -4,8 +4,8 @@
 ## Description
 Simply put, a user comes in, customizes the pizzas of their liking and orders it, providing a delivery location for it to be delivered. This was made as Moringa's week 4 IP to practice on the skills learnt this week and previous weeks.
 ## Setup/Installation Requirements
-* `git clone`\
-* `cd /Pizzeria`\
+* `git clone`
+* `cd /Pizzeria`
 ## Known Bugs
 There are no known bugs, if anycaught. Please file as under contact details.
 ## Technologies Used
