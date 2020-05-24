@@ -206,7 +206,7 @@ $(document).ready(()=>{
         $('.jumbotron').show();
         $('.jumbotron > p').html("");
         $('.jumbotron').append('<p>Total Order is Ksh. '+grandTotal+'</p>');
-        $('.total-div').hide();
+        $('.check-keep-div').hide();
         $('.delivery').show();
     });
 

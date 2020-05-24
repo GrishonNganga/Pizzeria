@@ -85,6 +85,9 @@
     color: white;
     text-decoration: none;
 }
+.try-now{
+    font-size: 1.5em;
+}
 
 .mid-button a:hover, .try-now a:hover, .checkout-btn a:hover, .timer-img a:hover{
      color:white; 
